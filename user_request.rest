@@ -1,0 +1,45 @@
+# GET http://localhost:5000/users
+
+# ###
+# GET http://localhost:5000/users/235aa0dd-1160-4d8c-a7ff-4bd69a5a4328
+
+
+# ###
+# POST http://localhost:5000/users
+# Content-Type: application/json
+
+# {
+#  "username": "dikasaputra",
+#  "password": "admin",
+#  "confPassword": "admin"
+# }  
+
+
+# ###
+# PATCH  http://localhost:5000/users/fb4997a2-ec7a-42e2-a49b-0a2d05420b14
+# Content-Type: application/json
+
+# {
+#  "username": "dikasaputra",
+#  "password": "",
+#  "confPassword": ""
+# }  
+
+
+# ###
+# DELETE http://localhost:5000/users/fb4997a2-ec7a-42e2-a49b-0a2d05420b14
+
+# ###
+# POST http://localhost:5000/login
+# Content-Type: application/json
+
+# {
+#  "username": "admin",
+#  "password": "admin"
+# }  
+
+# ###
+# GET http://localhost:5000/me
+
+# ###
+# DELETE http://localhost:5000/logout

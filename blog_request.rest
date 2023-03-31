@@ -1,0 +1,70 @@
+# // Blog Category
+# //-----------------
+# // Get 
+# GET http://localhost:5000/blog-category
+
+# ###
+# // Get By Id
+# GET http://localhost:5000/blog-category/1
+
+# ###
+# // Create
+# POST http://localhost:5000/blog-category
+# Content-Type: application/json
+
+# {
+#   "Nama": "aa"
+# }
+
+# ###
+# // Update
+# PATCH http://localhost:5000/blog-category/6
+# Content-Type: application/json
+
+# {
+#   "Nama": "Makanan Berat"
+# }
+
+# ###
+# // Delete
+# DELETE http://localhost:5000/blog-category/6
+
+# ###
+# //----------------------
+# //Blog
+
+# // Get
+# GET http://localhost:5000/blog
+
+# ###
+# // Get By Id
+# GET http://localhost:5000/blog/10
+
+# ### 
+# //Create
+# POST http://localhost:5000/blog
+# Content-Type: application/json
+
+# {
+#   "Nama": "Wagyu TERMAHAL 2022",
+#   "Deskripsi": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+#   "img": "image.png",
+#   "blogCategoryId": 4
+# }
+
+# ###
+# // Update
+# PATCH http://localhost:5000/blog/15
+# Content-Type: application/json
+
+# {
+#   "Nama": "Wagyu TERMAHAL 2000",
+#   "Deskripsi": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+#   "img": "image.jpg",
+#   "blogCategoryId": 1
+# }
+
+
+# ###
+# // DELETE
+# DELETE http://localhost:5000/blog/15
