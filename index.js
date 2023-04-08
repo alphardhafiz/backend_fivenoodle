@@ -40,7 +40,11 @@ app.use(
 app.use(
   cors({
     credentials: true,
-    origin: ["http://localhost:3006", "http://localhost:3000"],
+    origin: [
+      "http://localhost:3006",
+      "http://localhost:3000",
+      "https://frontend-admin-fivenoodle.vercel.app",
+    ],
   })
 );
 
